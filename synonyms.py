@@ -79,7 +79,7 @@ def complete_pair_dictionary(filename):
     fout = open(filename+'.pair','w')
     for key in sorted(dictionary.keys()):
         for word in dictionary[key]:
-            fout.write('%s\t%s\n'%(key,word))
+            fout.write('%s\t%s\n'%(key, word))
     fout.close()
 
 
